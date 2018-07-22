@@ -1,3 +1,8 @@
+# Instructions
+- Project is created using Java 8. JDK 1.8 required to build
+- It is a maven project. Build project and run tests using command ```mvn clean install```
+- Run the project using [Main.java](https://github.com/LaraibUMemon/AnimalsTask/blob/master/src/main/java/com/qiagen/Main.java) using command ```mvn exec:java -Dexec.mainClass="com.qiagen.Main"``` or by calling the main method directly through an IDE e.g. IntelliJ
+
 # AnimalsTask
 Using Strategy Pattern to display each category differently
 
@@ -61,7 +66,3 @@ audi (4d9fa555e7c23996e99f1fb0e286aea8)
 Do not use if/else, switch/case or Ternary Operations in your code.
 The code should be written in a way that allows for adding more new categories (that might have even different logic and output formatting) without changing the existing code base (open closed principle).
 
-# Instructions
-- Project is created using Java 8. JDK 1.8 required to build
-- It is a maven project. Build project and run tests using command ```mvn clean install```
-- Run the project using [Main.java](https://github.com/LaraibUMemon/AnimalsTask/blob/master/src/main/java/com/qiagen/Main.java) using command ```mvn exec:java -Dexec.mainClass="com.qiagen.Main"``` or by calling the main method directly through an IDE e.g. IntelliJ
